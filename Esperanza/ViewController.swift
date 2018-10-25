@@ -8,11 +8,13 @@
 
 import UIKit
 import AVFoundation
+import WebKit
 
 
 class ViewController: UIViewController {
     @IBOutlet weak var playBtn: UIButton!
     var radioUrl : String = ""
+    var player :AVPlayer?
     
     
     override func viewDidLoad() {
@@ -30,20 +32,45 @@ class ViewController: UIViewController {
 
     @IBAction func playAct(_ sender: Any) {
         loadRadioUrl()
-        let _url = NSURL.init(string: radioUrl);
-        print("Init url")
-
-        var player : AVPlayer!;
-        print("Init empty AVPLayer")
-        let _playerItem = AVPlayerItem.init(url: _url! as URL)
-        player = AVPlayer.init(playerItem: _playerItem)
+        let _url = URL.init(string: radioUrl);
         
+        print("Init url")
+        //downloadFromUrl(_url: _url!);
+      
+    
+        
+       var player : AVPlayer!;
+       print("Init empty AVPLayer")
+       let _playerItem = AVPlayerItem.init(url: _url! as URL)
+       player = AVPlayer.init(playerItem: _playerItem)
+    
         
         print("Setted volume")
 
-        player.play();
+       player.play()
+    }
+    func downloadFromUrl(_url : URL){
+        var downloadTask : URLSessionDownloadTask
+        print("init download")
         
+        downloadTask = URLSession.shared.downloadTask(with: _url, completionHandler: { [weak self](URL, response, error) in
+            print("on downloading")
+            self?.play(_url: URL!);
+        })
         
+        downloadTask.resume()
+    }
+    func play(_url : URL){
+        print("in play")
+        do{
+            print("do play")
+            //self.player = try AVAudioPlayer(contentsOf: _url)
+            //player.prepareToPlay()
+            //player.play()
+            //print("playing")
+        //}catch {
+          //  print(error.localizedDescription)
+        }
     }
     
     func loadRadioUrl(){
