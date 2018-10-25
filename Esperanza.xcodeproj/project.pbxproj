@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6F2C0F2182509C00930C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C0E2182509C00930C03 /* AppDelegate.swift */; };
+		DB6F2C112182509C00930C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C102182509C00930C03 /* ViewController.swift */; };
+		DB6F2C142182509C00930C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F2C122182509C00930C03 /* Main.storyboard */; };
+		DB6F2C162182509E00930C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6F2C152182509E00930C03 /* Assets.xcassets */; };
+		DB6F2C192182509E00930C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F2C172182509E00930C03 /* LaunchScreen.storyboard */; };
+		DB6F2C242182509E00930C03 /* EsperanzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C232182509E00930C03 /* EsperanzaTests.swift */; };
+		DB6F2C2F2182509E00930C03 /* EsperanzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C2E2182509E00930C03 /* EsperanzaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6F2C202182509E00930C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6F2C032182509C00930C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6F2C0A2182509C00930C03;
+			remoteInfo = Esperanza;
+		};
+		DB6F2C2B2182509E00930C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6F2C032182509C00930C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6F2C0A2182509C00930C03;
+			remoteInfo = Esperanza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB6F2C0B2182509C00930C03 /* Esperanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esperanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F2C0E2182509C00930C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB6F2C102182509C00930C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB6F2C132182509C00930C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB6F2C152182509E00930C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB6F2C182182509E00930C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB6F2C1A2182509E00930C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6F2C1F2182509E00930C03 /* EsperanzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsperanzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F2C232182509E00930C03 /* EsperanzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsperanzaTests.swift; sourceTree = "<group>"; };
+		DB6F2C252182509E00930C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6F2C2A2182509E00930C03 /* EsperanzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsperanzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F2C2E2182509E00930C03 /* EsperanzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsperanzaUITests.swift; sourceTree = "<group>"; };
+		DB6F2C302182509E00930C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6F2C082182509C00930C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C1C2182509E00930C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C272182509E00930C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6F2C022182509C00930C03 = {
+			isa = PBXGroup;
+			children = (
+				DB6F2C0D2182509C00930C03 /* Esperanza */,
+				DB6F2C222182509E00930C03 /* EsperanzaTests */,
+				DB6F2C2D2182509E00930C03 /* EsperanzaUITests */,
+				DB6F2C0C2182509C00930C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6F2C0C2182509C00930C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F2C0B2182509C00930C03 /* Esperanza.app */,
+				DB6F2C1F2182509E00930C03 /* EsperanzaTests.xctest */,
+				DB6F2C2A2182509E00930C03 /* EsperanzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6F2C0D2182509C00930C03 /* Esperanza */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F2C0E2182509C00930C03 /* AppDelegate.swift */,
+				DB6F2C102182509C00930C03 /* ViewController.swift */,
+				DB6F2C122182509C00930C03 /* Main.storyboard */,
+				DB6F2C152182509E00930C03 /* Assets.xcassets */,
+				DB6F2C172182509E00930C03 /* LaunchScreen.storyboard */,
+				DB6F2C1A2182509E00930C03 /* Info.plist */,
+			);
+			path = Esperanza;
+			sourceTree = "<group>";
+		};
+		DB6F2C222182509E00930C03 /* EsperanzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F2C232182509E00930C03 /* EsperanzaTests.swift */,
+				DB6F2C252182509E00930C03 /* Info.plist */,
+			);
+			path = EsperanzaTests;
+			sourceTree = "<group>";
+		};
+		DB6F2C2D2182509E00930C03 /* EsperanzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F2C2E2182509E00930C03 /* EsperanzaUITests.swift */,
+				DB6F2C302182509E00930C03 /* Info.plist */,
+			);
+			path = EsperanzaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6F2C0A2182509C00930C03 /* Esperanza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F2C332182509E00930C03 /* Build configuration list for PBXNativeTarget "Esperanza" */;
+			buildPhases = (
+				DB6F2C072182509C00930C03 /* Sources */,
+				DB6F2C082182509C00930C03 /* Frameworks */,
+				DB6F2C092182509C00930C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esperanza;
+			productName = Esperanza;
+			productReference = DB6F2C0B2182509C00930C03 /* Esperanza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB6F2C1E2182509E00930C03 /* EsperanzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F2C362182509E00930C03 /* Build configuration list for PBXNativeTarget "EsperanzaTests" */;
+			buildPhases = (
+				DB6F2C1B2182509E00930C03 /* Sources */,
+				DB6F2C1C2182509E00930C03 /* Frameworks */,
+				DB6F2C1D2182509E00930C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6F2C212182509E00930C03 /* PBXTargetDependency */,
+			);
+			name = EsperanzaTests;
+			productName = EsperanzaTests;
+			productReference = DB6F2C1F2182509E00930C03 /* EsperanzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB6F2C292182509E00930C03 /* EsperanzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F2C392182509E00930C03 /* Build configuration list for PBXNativeTarget "EsperanzaUITests" */;
+			buildPhases = (
+				DB6F2C262182509E00930C03 /* Sources */,
+				DB6F2C272182509E00930C03 /* Frameworks */,
+				DB6F2C282182509E00930C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6F2C2C2182509E00930C03 /* PBXTargetDependency */,
+			);
+			name = EsperanzaUITests;
+			productName = EsperanzaUITests;
+			productReference = DB6F2C2A2182509E00930C03 /* EsperanzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6F2C032182509C00930C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Estudiante;
+				TargetAttributes = {
+					DB6F2C0A2182509C00930C03 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DB6F2C1E2182509E00930C03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DB6F2C0A2182509C00930C03;
+					};
+					DB6F2C292182509E00930C03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DB6F2C0A2182509C00930C03;
+					};
+				};
+			};
+			buildConfigurationList = DB6F2C062182509C00930C03 /* Build configuration list for PBXProject "Esperanza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6F2C022182509C00930C03;
+			productRefGroup = DB6F2C0C2182509C00930C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6F2C0A2182509C00930C03 /* Esperanza */,
+				DB6F2C1E2182509E00930C03 /* EsperanzaTests */,
+				DB6F2C292182509E00930C03 /* EsperanzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6F2C092182509C00930C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F2C192182509E00930C03 /* LaunchScreen.storyboard in Resources */,
+				DB6F2C162182509E00930C03 /* Assets.xcassets in Resources */,
+				DB6F2C142182509C00930C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C1D2182509E00930C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C282182509E00930C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6F2C072182509C00930C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F2C112182509C00930C03 /* ViewController.swift in Sources */,
+				DB6F2C0F2182509C00930C03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C1B2182509E00930C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F2C242182509E00930C03 /* EsperanzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6F2C262182509E00930C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F2C2F2182509E00930C03 /* EsperanzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB6F2C212182509E00930C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6F2C0A2182509C00930C03 /* Esperanza */;
+			targetProxy = DB6F2C202182509E00930C03 /* PBXContainerItemProxy */;
+		};
+		DB6F2C2C2182509E00930C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6F2C0A2182509C00930C03 /* Esperanza */;
+			targetProxy = DB6F2C2B2182509E00930C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6F2C122182509C00930C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6F2C132182509C00930C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6F2C172182509E00930C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6F2C182182509E00930C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6F2C312182509E00930C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB6F2C322182509E00930C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6F2C342182509E00930C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Esperanza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esperanza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB6F2C352182509E00930C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Esperanza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esperanza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB6F2C372182509E00930C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsperanzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsperanzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esperanza.app/Esperanza";
+			};
+			name = Debug;
+		};
+		DB6F2C382182509E00930C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsperanzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsperanzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esperanza.app/Esperanza";
+			};
+			name = Release;
+		};
+		DB6F2C3A2182509E00930C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsperanzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsperanzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Esperanza;
+			};
+			name = Debug;
+		};
+		DB6F2C3B2182509E00930C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsperanzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsperanzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Esperanza;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6F2C062182509C00930C03 /* Build configuration list for PBXProject "Esperanza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F2C312182509E00930C03 /* Debug */,
+				DB6F2C322182509E00930C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6F2C332182509E00930C03 /* Build configuration list for PBXNativeTarget "Esperanza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F2C342182509E00930C03 /* Debug */,
+				DB6F2C352182509E00930C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6F2C362182509E00930C03 /* Build configuration list for PBXNativeTarget "EsperanzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F2C372182509E00930C03 /* Debug */,
+				DB6F2C382182509E00930C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6F2C392182509E00930C03 /* Build configuration list for PBXNativeTarget "EsperanzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F2C3A2182509E00930C03 /* Debug */,
+				DB6F2C3B2182509E00930C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6F2C032182509C00930C03 /* Project object */;
+}
