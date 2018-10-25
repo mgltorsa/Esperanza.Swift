@@ -14,6 +14,7 @@
 		DB6F2C192182509E00930C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F2C172182509E00930C03 /* LaunchScreen.storyboard */; };
 		DB6F2C242182509E00930C03 /* EsperanzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C232182509E00930C03 /* EsperanzaTests.swift */; };
 		DB6F2C2F2182509E00930C03 /* EsperanzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C2E2182509E00930C03 /* EsperanzaUITests.swift */; };
+		DB6F2C3D21825E0B00930C03 /* RadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2C3C21825E0B00930C03 /* RadioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DB6F2C2A2182509E00930C03 /* EsperanzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsperanzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F2C2E2182509E00930C03 /* EsperanzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsperanzaUITests.swift; sourceTree = "<group>"; };
 		DB6F2C302182509E00930C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6F2C3C21825E0B00930C03 /* RadioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DB6F2C152182509E00930C03 /* Assets.xcassets */,
 				DB6F2C172182509E00930C03 /* LaunchScreen.storyboard */,
 				DB6F2C1A2182509E00930C03 /* Info.plist */,
+				DB6F2C3C21825E0B00930C03 /* RadioController.swift */,
 			);
 			path = Esperanza;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				DB6F2C112182509C00930C03 /* ViewController.swift in Sources */,
 				DB6F2C0F2182509C00930C03 /* AppDelegate.swift in Sources */,
+				DB6F2C3D21825E0B00930C03 /* RadioController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
