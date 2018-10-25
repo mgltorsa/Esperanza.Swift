@@ -19,18 +19,21 @@ class RadioController {
     
     func loadRadioUrl(_strUrl : String){
         radioUrl = _strUrl
-        var _url = createUrl(String: radioUrl);
-        createAVPlayer(_url)
+        let _url = createUrl(_strUrl: radioUrl)
+        let player = createAVPlayer(_url: _url)
+        player.volume=1.0
+        player.play();
         
     }
     
     func createAVPlayer(_url : URL) ->AVPlayer{
-        var player = AVPlayer.init(url: _url! as URL);
+        let player = AVPlayer.init(url: _url as URL)
+        return player
     }
     
     func createUrl(_strUrl : String) -> URL {
-        var _url = URL.init(string: _strUrl)
+        let _url = URL.init(string: _strUrl)
         
-        return _url
+        return _url!
     }
 }

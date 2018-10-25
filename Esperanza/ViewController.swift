@@ -7,17 +7,17 @@
 //
 
 import UIKit
-import AVKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var playBtn: UIButton!
     var radioUrl : String = ""
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("loaded")
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -35,9 +35,10 @@ class ViewController: UIViewController {
 
         var player : AVPlayer!;
         print("Init empty AVPLayer")
-
-        player = AVPlayer.init(url: _url! as URL)
-        player.volume=2.0;
+        let _playerItem = AVPlayerItem.init(url: _url! as URL)
+        player = AVPlayer.init(playerItem: _playerItem)
+        
+        
         print("Setted volume")
 
         player.play();
